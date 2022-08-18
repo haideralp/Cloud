@@ -4,7 +4,7 @@
  - Naming convention eng_122_haider_ec2
  - AWS services to be used between 09:00 - 18:00 stop or terminate
  - If your need to use it out of hours please ask
- - WE must only use Ireland
+ - WE MUST ONLY USE IRELAND.
  - terminate services once you finished working. 
  - Do not delete anyone else's services
  - MUST NOT SHARE AWS ACCOUNT DETAILS WITH ANYONE - SO NO GITHUB REPO 
