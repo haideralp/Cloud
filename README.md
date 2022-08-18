@@ -48,7 +48,7 @@
 
 10. To confirm your instance is running on aws you can do see by navigating back to **EC2 dashboard** stated on the top left corner. Naivgate to **instances running** on right of main screen and you shall see the your instance up and running with all status checks done. (2/2 - means 200) 
 
-## Connection to local host 
+## Establishing Connection Between Local Host and AWS:  
 
 1. Ensure the **keyname.pem**  key is located in .ssh folder as below and delete from anywhere else as this is **KEY**.
 
@@ -64,6 +64,10 @@
 
 ![image](https://user-images.githubusercontent.com/97620055/185426229-a85eb473-f7ee-46e0-8062-7add34552418.png)
 
+## Installing Nodejs & Dependencies:
+
+1. Follow the following commands to install nodjs & dependencies:
+''' 
 
 
 SCP command (secure copy)- works same as ssh key in terms of constructing command.
