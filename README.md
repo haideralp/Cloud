@@ -66,11 +66,34 @@
 
 ## Installing Nodejs & Dependencies:
 
-1. Follow the following commands to install nodjs & dependencies:
-''' 
+-  Follow the following commands to install nodjs & dependencies in the Vm terminal:
 
+* Update & Upgrade Ubuntu - OS
 
-SCP command (secure copy)- works same as ssh key in terms of constructing command.
+sudo apt-get update -y
+sudo apt-get upgrade -y
+
+* Install & Enable NGINX
+
+sudo apt-get install nginx -y
+sudo systemctl restart nginx
+sudo systemctl enable nginx
+
+* Install node.js (version 6.0)
+sudo apt install nodejs -y
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+
+## Data Migration (app folder) to AWS
+
+- In your local host terminal run the following command to copy app folder (or any desired folder) to the remote host
+**scp  -i ~/.ssh/eng122.pem -r /c/Users/haide/Sparta_Virtualisation/app  ubuntu@ec2-52-209-212-251.eu-west-1.compute.amazonaws.com:**
+* If process and command configured correctly, this should take few minitues. 
+  
+## Preparing for App Start Up
+1. List all the folders located on virtual terminal 
+2. Navigate to the app/app folder
+3. Run --> **npm install** if that does not work do **apt-get install npm**.
+4. Perform command **npm start** 
 
 
 
