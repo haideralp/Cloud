@@ -50,12 +50,23 @@
 
 ## Connection to local host 
 
-1. Ensure the **keyname.pem**  key is located in .ssh folder as below and delete from anywhere else as this is **KEY**. 
+1. Ensure the **keyname.pem**  key is located in .ssh folder as below and delete from anywhere else as this is **KEY**.
 
-3. Run **chmod 400 'keyname.pem'
-4. Whilst inside .ssh folder, navigate back to where your instance is running and select **connect** on the top bar below browser web address. 
-5. 
+![image](https://user-images.githubusercontent.com/97620055/185424365-ffb43d7a-ee96-4901-8698-9c72a3eb7599.png)
 
+2. Whilst inside .ssh folder, navigate back to where your instance is running and select **connect** on the top bar.
+
+3. Select to SSH client settings and follow the instructions with running relevant command.
+
+![image](https://user-images.githubusercontent.com/97620055/185425433-1cbfab32-97c1-49a0-9a70-b648f398b488.png)
+
+4. To verify your machine will look like on local host once connection is establised between your local host and remote (aws) as below on  your terminal. 
+
+![image](https://user-images.githubusercontent.com/97620055/185426229-a85eb473-f7ee-46e0-8062-7add34552418.png)
+
+
+
+SCP command (secure copy)- works same as ssh key in terms of constructing command.
 
 
 
