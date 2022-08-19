@@ -85,16 +85,17 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
 ## Data Migration (app folder) to AWS
 
-- In your local host terminal run the following command to copy app folder (or any desired folder) to the remote host
+- In your local host terminal in the home directory, run the following command to copy app folder (or any desired folder) to the remote host:
+  
 **scp  -i ~/.ssh/eng122.pem -r /c/Users/haide/Sparta_Virtualisation/app  ubuntu@ec2-52-209-212-251.eu-west-1.compute.amazonaws.com:**
+
+* SCP command (secure copy) - works in similar way to SSH in terms of constructing command (data is secure)
 * If process and command configured correctly, this should take few minitues. 
   
 ## Preparing for App Start Up
+
 1. List all the folders located on virtual terminal 
 2. Navigate to the app/app folder
 3. Run --> **npm install** if that does not work do **apt-get install npm**.
 4. Perform command **npm start** 
-
-
-
 
