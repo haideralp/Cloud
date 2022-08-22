@@ -165,7 +165,7 @@ Robustness (Speed)
 ## The Four Key Pillars of Cloud Computing:
 
 1. **Cost Effectiveness**: AWS allows you to trade fixed expenses (such as data centers and physical servers) for variable expenses, and only pay for IT as you consume it. Plus, the variable expenses are much lower than what you would pay to do it yourself because of the economies of scale.
-2. Agility (Robustness): AWS has a broad range of technologies so that you can innovate faster and build nearly anything that you can imagine. You can quickly spin up resources as you need them–from infrastructure services, such as compute, storage, and databases, to Internet of Things, machine learning, data lakes and analytics, and much more.
+2. **Agility (Robustness)**: AWS has a broad range of technologies so that you can innovate faster and build nearly anything that you can imagine. You can quickly spin up resources as you need them–from infrastructure services, such as compute, storage, and databases, to Internet of Things, machine learning, data lakes and analytics, and much more.
 3. **Elasticity**: Cloud computing allows you to provision as per business activity. You can scale these resources up or down to instantly grow and shrink capacity as your business needs change.
 4. **Global Deployment**: With the cloud, you can expand to new geographic regions and deploy globally in minutes. For example, AWS has infrastructure all over the world, so you can deploy your application in multiple physical locations with just a few clicks. Putting applications in closer proximity to end users reduces latency and improves their experience.
 
