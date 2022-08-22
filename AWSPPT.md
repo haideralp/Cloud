@@ -8,15 +8,7 @@
 # IAAS
 
 
-## Pros 
-
-
-## Cons
-
-
 # PAAS
-
-
 
 
 # SAAS
