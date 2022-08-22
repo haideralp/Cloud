@@ -103,35 +103,37 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 3. Run --> **npm install** if that does not work do **apt-get install npm**.
 4. Perform command **npm start** 
 
-# Mongodb Database Setup 
+## Mongodb Database Setup 
 
 Same configuration as app vm, for security protocol allow port 27017 (private ip app /32).
 
 ### Install dependencies on database virtual machine.
 
 
-- Update & Upgrade Ubuntu - OS : sudo apt-get update -y --> sudo apt-get upgrade -y
+- Update & Upgrade Ubuntu - OS : **sudo apt-get update -y --> sudo apt-get upgrade -y
 
 - Key, Repo, Version Initialised with updates
 
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927
-echo "deb https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+**sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927
 
-- Unfinished Updates / Upgrades - sudo apt-get update -y --> sudo apt-get upgrade -y
+**echo "deb https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+
+- Unfinished Updates / Upgrades:  **sudo apt-get update -y --> sudo apt-get upgrade -y
 
 - Install mondodb
-sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20
 
-- Mongodb Intialisation: sudo systemctl enable mongod --> sudo systemctl restart mongod
+**sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20
 
-- Configure the mongod.conf file with the bind ip as 0.0.0.0
+- Mongodb Intialisation: sudo systemctl enable mongod --> **sudo systemctl restart mongod
 
-- Restart mongodb with sudo systemctl restart mongod
+- Configure the mongod.conf file with the bind ip as **0.0.0.0
+
+- Restart mongodb with **sudo systemctl restart mongod
 
  ### Reconfiguring the App VM
 
-  1. Set the environment variable called DB_HOST as: mongodb://IPv4_db_address/27017/posts
+  1. Set the environment variable called **DB_HOST** as: **mongodb://IPv4_db_address/27017/posts
 
-  2. Run node seed.js in seeds directory (inside app folder)
+  2. Run **node seed.js**in seeds directory (inside app folder)
 
-  3. Run npm start to start the app.
+  3. Run **npm start** to start the app.
