@@ -11,7 +11,7 @@
  
  ## Powerpoint Explaining Cloud Computing & Models :
  
- https://github.com/haideralp/Cloud/blob/main/AWSPPT.md 
+ https://github.com/haideralp/Cloud/blob/main/AWs%20PPT.pptx
  
 # Overview Diagram Showcasing EC2 Creation on AWS  
 
