@@ -91,7 +91,7 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
 - In your local host terminal in the home directory, run the following command to copy app folder (or any desired folder) to the remote host:
   
-**scp  -i ~/.ssh/eng122.pem -r /c/Users/haide/Sparta_Virtualisation/app  ubuntu@ec2-52-209-212-251.eu-west-1.compute.amazonaws.com:**
+**scp  -i ~/.ssh/eng122.pem -r /c/Users/haide/Sparta_Virtualisation/app  (changes everytime).eu-west-1.compute.amazonaws.com:**
 
 * SCP command (secure copy) - works in similar way to SSH in terms of constructing command (data is secure)
 * If process and command configured correctly, this should take few minitues. 
