@@ -126,7 +126,7 @@ Same configuration as app vm, for security protocol allow port 27017 (private ip
 
 - Mongodb Intialisation: sudo systemctl enable mongod --> **sudo systemctl restart mongod**
 
-- Configure the mongod.conf file with the bind ip as **0.0.0.0**
+- Configure the mongod.conf file with the bind ip as **0.0.0.0** using **sudo nano mongod.conf**
 
 - Restart mongodb with **sudo systemctl restart mongod**
 
@@ -137,3 +137,29 @@ Same configuration as app vm, for security protocol allow port 27017 (private ip
   2. Run **node seed.js**in seeds directory (inside app folder)
 
   3. Run **npm start** to start the app.
+
+
+AWS
+ease of use 
+flexibiliyu
+cost effectiveness
+Robustness (Speed)
+
+# AWS - Guidlines & Concepts
+
+*  AWS resources are hosted in multiple locations world-wide. These locations are composed of AWS Regions, Availability Zones, and Local Zones. Each AWS Region is a separate geographic area. Each AWS Region has multiple, isolated locations known as Availability Zones.
+
+## Diagram Displaying Global Structure of AWS:
+
+1. AWS Regions - Independent geographical locations spread across globally where data centers reside. Currently has **26 Regions**.
+   
+2. Availability Zones - Within each region there is a **minimum of 2 availability zones**. These are distinct locations within an AWS Region that are engineered to be isolated from failures in other Availability Zones
+   
+3. Local Zones - A Local Zone is an extension of an AWS Region that is geographically close to your users. It allows you  place resources, such as compute and storage, in multiple locations closer to your users. Amazon RDS enables you to place resources, such as DB instances, and data in multiple locations. Resources aren't replicated across AWS Regions unless you do so specifically.
+
+## The Four Key Pillars of Cloud Computing:
+
+1. Cost Effectiveness
+2. Ease of Use:
+3. Robustness (Speed)
+4. 
