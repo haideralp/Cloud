@@ -9,6 +9,10 @@
  - Do not delete anyone else's services
  - MUST NOT SHARE AWS ACCOUNT DETAILS WITH ANYONE - SO NO GITHUB REPO 
  
+ ## Powerpoint Explaining Cloud Computing & Models :
+ 
+ https://github.com/haideralp/Cloud/blob/main/AWSPPT.md 
+ 
 # Overview Diagram Showcasing EC2 Creation on AWS  
 
 ![image](https://user-images.githubusercontent.com/97620055/185412695-2eca3fc1-e03a-4b1f-a37c-1148d8b6b7a2.png)
