@@ -200,3 +200,12 @@ Robustness (Speed)
 
 ![image](https://user-images.githubusercontent.com/97620055/185966347-070e2765-bcbf-488d-9508-21d67ab49c73.png)
 
+
+## Disaster Recovery Plan (DRP):
+
+### DRP Plan Disaster recovery (DR) is the process that goes into preparing for and recovering from a disaster. This disaster could take one of a number of forms, but they all end up in the same result: the prevention of a system from functioning as it normally does, preventing a business from completing its daily objectives.
+
+### Diagram modelling Amazon S3: 
+
+![image](https://user-images.githubusercontent.com/97620055/186161966-84eae804-ed33-43d7-b128-68f7cd847050.png)
+
