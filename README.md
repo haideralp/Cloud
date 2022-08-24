@@ -139,12 +139,6 @@ Same configuration as app vm, for security protocol allow port 27017 (private ip
   3. Run **npm start** to start the app.
 
 
-AWS
-ease of use 
-flexibiliyu
-cost effectiveness
-Robustness (Speed)
-
 # AWS - Guidlines & Concepts
 
 *  AWS resources are hosted in multiple locations world-wide. These locations are composed of AWS Regions, Availability Zones, and Local Zones. Each AWS Region is a separate geographic area. Each AWS Region has multiple, isolated locations known as Availability Zones.
@@ -220,7 +214,7 @@ Robustness (Speed)
 - AWS Access & Secret Key configurations --> **aws configure** * set region config: **eu-west-1** and output formant: **json**
 
 For the steps below I have used the documentation from link to create python scripts
-![https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html?highlight=copy#S3.Client.copy]
+[Boto3 Official Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html?highlight=copy#S3.Client.copy)
 
 ### Creation of S3 Bucket
 
