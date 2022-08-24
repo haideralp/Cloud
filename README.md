@@ -209,3 +209,35 @@ Robustness (Speed)
 
 ![image](https://user-images.githubusercontent.com/97620055/186161966-84eae804-ed33-43d7-b128-68f7cd847050.png)
 
+
+## Amazon S3 Set Up
+
+### Prerequistes Needed
+
+- Pip3 must be installed --> sudo apt install python3-pip  (after checking for version with command **python --version**)
+- Python Version 3.7 -> sudo apt-get install python -y  if version still showing set up alias python environment using **alias python=python3**
+- AWS Command Line Interface - sudo pip3 install awscli
+- AWS Access & Secret Key configurations --> **aws configure** * set region config: **eu-west-1** and output formant: **json**
+
+For the steps below I have used the documentation from link to create python scripts
+![https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html?highlight=copy#S3.Client.copy]
+
+## Creation of S3 Bucket
+
+
+
+## Uploading Content/File
+
+
+
+## Retrieving Content/File
+
+
+
+## Deleting Content/File
+
+
+
+
+
+
