@@ -219,13 +219,11 @@ For the steps below I have used the documentation from link to create python scr
 ### Creation of S3 Bucket
 
 - Executing code below creates the S3. I have named my bucket: **eng122-haider-botobuck** 
+
    
 import boto3
-
 s3_client = boto3.client('s3')
-
 s3_client.create_bucket(Bucket='eng122-haider-botobuck',
-
 CreateBucketConfiguration= {'LocationConstraint':'eu-west-1'})
 
 
@@ -237,9 +235,7 @@ CreateBucketConfiguration= {'LocationConstraint':'eu-west-1'})
 - Executing code uploads the content to S3 bucket. 
 
 import boto3
-
 s3_client = boto3.client('s3')
-
 s3_client.upload_file('test.txt','eng122-haider-botobuck','test.txt')
 
 ![upload](https://user-images.githubusercontent.com/97620055/186361790-314050f8-062b-47d7-a5be-1129515c038e.PNG)
@@ -250,11 +246,8 @@ s3_client.upload_file('test.txt','eng122-haider-botobuck','test.txt')
 - Executing code below retrieves the content in the file and is renamed at destination. 
 
 import boto3
-
 s3_client = boto3.client('s3')
-
 s3_client.download_file('eng122-haider-botobuck', 'test.txt','retrieved_file.txt')
-
 
 
 ![retrieved file](https://user-images.githubusercontent.com/97620055/186361849-7707fcb4-e5be-4a86-9af3-c60d7901ec5c.PNG)
@@ -265,10 +258,8 @@ s3_client.download_file('eng122-haider-botobuck', 'test.txt','retrieved_file.txt
 - Executing code below deletes the content in the file. 
 
 import boto3
-
-s3 = boto3.client('s3')
-
-s3.delete_object(Bucket='eng122-haider-botobuck', Key='test.txt')
+s3_client = boto3.client('s3')
+s3_client.delete_object(Bucket='eng122-haider-botobuck', Key='test.txt')
 
 ![delete](https://user-images.githubusercontent.com/97620055/186361910-7459a72f-fee2-443b-8894-c747a9e96a16.PNG)
 
@@ -278,7 +269,5 @@ s3.delete_object(Bucket='eng122-haider-botobuck', Key='test.txt')
 - Executing code below deletes the S3 bucket. 
 
 import boto3
-
 s3_client = boto3.client('s3')
-
 s3_client.delete_bucket(Bucket='eng122-haider-botobuck')

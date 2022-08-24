@@ -1,15 +1,6 @@
 # Creating S3 in AWS - (Boto3)
 
 import boto3
-
-client = boto3.client('s3')
-
-bucket_name=str(input('Please input bucket name to be created: '))
-
-#Bucket Name argument is mandatory and bucket name should be unique
-response1 = client.create_bucket(
-    ACL='public',                    # amazon access control lists - allows you manage permissions of your bucket and who has access.
-    Bucket=bucket_name
-    )
-
-print(response1['Location'])
+s3_client = boto3.client('s3')   #generating S3 client here to form connection
+s3_client.create_bucket(Bucket='eng122-haider-botobuck',  # using create bucket bucket command to create bucket
+CreateBucketConfiguration= {'LocationConstraint':'eu-west-1'}) # AWS requries us to be more specific so defining region
