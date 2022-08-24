@@ -267,7 +267,9 @@ s3_client.delete_object(Bucket='eng122-haider-botobuck', Key='test.txt')
 ### Deleting S3 Bucket
 
 - Executing code below deletes the S3 bucket. 
-
+**
 import boto3
 s3_client = boto3.client('s3')
 s3_client.delete_bucket(Bucket='eng122-haider-botobuck')
+**
+![image](https://user-images.githubusercontent.com/97620055/186370257-bb937d90-cb47-4a48-bcca-2abcc2da71e5.png)
