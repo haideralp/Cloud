@@ -218,6 +218,18 @@ For the steps below I have used the documentation from link to create python scr
 
 ### Creation of S3 Bucket
 
+''' python
+   
+import boto3
+
+s3_client = boto3.client('s3')
+
+s3_client.create_bucket(Bucket='eng122-haider-botobuck',
+
+CreateBucketConfiguration= {'LocationConstraint':'eu-west-1'})
+
+'''
+
 ![s3 create](https://user-images.githubusercontent.com/97620055/186361737-bcee11eb-c3d7-412f-9803-64408613447b.PNG)
 
 
