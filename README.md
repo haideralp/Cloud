@@ -224,20 +224,26 @@ For the steps below I have used the documentation from link to create python scr
 
 ### Creation of S3 Bucket
 
+![s3 create](https://user-images.githubusercontent.com/97620055/186361737-bcee11eb-c3d7-412f-9803-64408613447b.PNG)
 
 
 ### Uploading Content/File
 
+![upload](https://user-images.githubusercontent.com/97620055/186361790-314050f8-062b-47d7-a5be-1129515c038e.PNG)
 
 
 ### Retrieving Content/File
 
+![retrieved file](https://user-images.githubusercontent.com/97620055/186361849-7707fcb4-e5be-4a86-9af3-c60d7901ec5c.PNG)
 
 
 ###  Deleting Content/File
 
 
+![delete](https://user-images.githubusercontent.com/97620055/186361910-7459a72f-fee2-443b-8894-c747a9e96a16.PNG)
 
+
+### Deleting S3 Bucket
 
 
 
