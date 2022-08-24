@@ -202,7 +202,7 @@ Same configuration as app vm, for security protocol allow port 27017 (private ip
 
 ### Diagram modelling Amazon S3: 
 
-![image](https://user-images.githubusercontent.com/97620055/186161966-84eae804-ed33-43d7-b128-68f7cd847050.png)
+![image](https://user-images.githubusercontent.com/97620055/186379855-bb50286c-a71e-4094-bdea-94a3c43f8954.png)
 
 1. Multi-AZs - Different availability zones within regions, so it cannot 
 2. Multi-Regions - Using multiple regions in case availability zones are not able to recover.
