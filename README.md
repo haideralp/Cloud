@@ -222,19 +222,19 @@ Robustness (Speed)
 For the steps below I have used the documentation from link to create python scripts
 ![https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html?highlight=copy#S3.Client.copy]
 
-## Creation of S3 Bucket
+### Creation of S3 Bucket
 
 
 
-## Uploading Content/File
+### Uploading Content/File
 
 
 
-## Retrieving Content/File
+### Retrieving Content/File
 
 
 
-## Deleting Content/File
+###  Deleting Content/File
 
 
 
